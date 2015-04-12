@@ -1,3 +1,10 @@
+# Get kallsyms disassembly
+
+get_disas.sh
+
+#
+
+
 - files
 
 sourcefile objectfile symbol	
