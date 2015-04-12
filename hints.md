@@ -32,3 +32,7 @@ create table symbols ( address varchar(1024), name varchar(1024), type varchar(1
 
 
 pdjf~call
+
+
+# kvm
+gdb stub: https://wiki.hpdd.intel.com/pages/viewpage.action?pageId=12127636
