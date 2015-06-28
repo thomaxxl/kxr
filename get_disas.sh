@@ -8,11 +8,11 @@
 
 vmlinux="$1"
 outdir="$2"
-kallsyms="$3"
+kallsyms="$3" # /proc/kallsyms
 
 # TODO : getopts & error checking 
 
-mkdir $outdir && cat $kallsyms | while read sym
+mkdir $outdir && cat $kallsyms | while read address type sym
 do
 	echo disas $sym | gdb -q $vmlinux | egrep '^  ' > $outdir/$sym
 done
