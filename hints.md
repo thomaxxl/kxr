@@ -36,3 +36,6 @@ pdjf~call
 
 # kvm
 gdb stub: https://wiki.hpdd.intel.com/pages/viewpage.action?pageId=12127636
+
+virsh list --all
+virsh start kvmguest
